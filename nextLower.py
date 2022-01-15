@@ -1,4 +1,5 @@
-
+#returns the next lower number using the same digits
+#if number is already the lowest, returns None
 def next_lower(n):
     sort = sorted(list(str(n)))
     sort2 = "".join(sort)
